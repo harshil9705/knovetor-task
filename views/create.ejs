@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create post</title>
+</head>
+<body>
+    <form action="/post/create" method="post">
+        <input type="text" name="tital" placeholder="tital"><br><br>
+        <input type="text" name="body" placeholder="body"><br><br>
+        <select name="activation">
+            <option value="true">true</option>
+            <option value="false">false</option>
+        </select>
+        <select name="Geolocation">
+            <option value="latitude">latitude</option>
+            <option value="longitude">longitude</option>
+        </select>
+        <br><br>
+        <button>create</button>
+    </form>
+</body>
+</html>
